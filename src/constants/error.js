@@ -1,0 +1,21 @@
+export default {
+  GET_USERS_ERROR: "Can't receive user data.",
+  DELETE_USER_ERROR: "Error deleting user.",
+  GET_NOTES_ERROR: "Can't receive note data.",
+  DELETE_NOTE_ERROR: "Error deleting note.",
+  GET_CAMERAS_ERROR: "Can't receive camera data.",
+  DELETE_CAMERA_ERROR: "Error deleting camera.",
+  GET_COMMENTS_ERROR: "Can't receive comment data.",
+  DELETE_COMMENT_ERROR: "Error deleting comment.",
+  GET_TRANSACTIONS_ERROR: "Can't receive transaction data.",
+  DELETE_TRANSACTION_ERROR: "Error deleting transaction.",
+  USER_DETAILS_ERROR: "Error updating user details",
+  USERS_PASSWORD_ERROR: "Error updating user password",
+  FORGOT_PASSWORD_ERROR: "Error sending the email",
+  RESET_PASSWORD_ERROR: "Error resetting the password",
+  COMPLETE_NOTE_ERROR: "You are not authorized to edit a completed note",
+  EDIT_NOTE_ERROR:
+    "You are not authorized to edit notes that do not belong to you.",
+  COULD_NOT_FIND_TASK: "Could not find task to edit.",
+  LOGOUT_ERROR: "Logout failed. Please try again.",
+};
